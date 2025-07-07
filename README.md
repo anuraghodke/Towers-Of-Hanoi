@@ -13,6 +13,7 @@ Rules:
 The goal is to recreate the same stack of disks on a new peg, using as few moves as possible.
 
 **Project Files**
+
 HTML setup to run locally in your browser:
 - index.html
 - tohc.css
