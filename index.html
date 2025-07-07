@@ -4,11 +4,11 @@
 <head>
   <title>Towers of Hanoi</title>
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="Towers-Of-Hanoi/tohc.css">
+  <link rel="stylesheet" type="text/css" href="tohc.css">
 </head>
 
 <body>
-  <div id="canvas">
+  <td id="canvas">
     <div id="title">
       <h1>Towers Of Hanoi</h1></div>
     </br>
@@ -41,16 +41,23 @@
     </div>
     </br>
     </br>
-    <div id="restart">
-      <button type="button" class="buttons">Restart</button>
-    </div>
-<!-- </br>
-    <div id="solve">
-      <button type="button" class="buttons">Solve</button>
-    </div>
--->
+
+    <table id="buttontable">
+      <tr>
+      <td id="restart">
+        <button type="button" class="buttons">Restart</button>
+      </td>
+      <td>
+      </td>
+      <td id="solve">
+        <button type="button" class="buttons">Solve</button>
+      </td>
+      </tr>
+    </table>
+    </br>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="Towers-Of-Hanoi/tohj.js"></script>
+    <script type="text/javascript" src="tohj.js"></script>
   </div>
 </body>
 
